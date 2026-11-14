@@ -1,137 +1,160 @@
-# Awesome-Public-Private-API-Directory
+<div align="center">
 
-# Awesome Public & Private API Directory
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner.svg">
+  <img alt="Awesome Public &amp; Private API Directory Banner" src="assets/banner.svg" width="100%">
+</picture>
 
-> A curated list of top Public and Private API Directory platforms — both SaaS/Hosted commercial API networks and open-source alternatives for discovering, cataloging, and governing APIs.
-> 🌟 Star this repo if you find it useful! 🌟
+# Awesome Public &amp; Private API Directory
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Public-Private-API-Directory/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Public-Private-API-Directory/graphs/commit-activity)
+[![Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Public-Private-API-Directory?style=social)](https://github.com/ishandutta2007/Awesome-Public-Private-API-Directory/stargazers)
+
+<p align="center">
+  <strong>A comprehensive, SEO-optimized directory of top Public and Private API Directory platforms, commercial API marketplaces, internal API catalogs, developer portals, and open-source OpenAPI registries.</strong>
+</p>
+
+<p align="center">
+  <a href="#-sector-overview--market-dynamics">Sector Overview</a> •
+  <a href="#-saas--hosted-commercial-platforms">SaaS Platforms</a> •
+  <a href="#-open-source-software-and-curated-directories">Open-Source Solutions</a> •
+  <a href="#-feature-comparison-matrix">Comparison Matrix</a> •
+  <a href="#-contributing">Contributing</a>
+</p>
+
+</div>
 
 ---
 
 ## 📋 Table of Contents
 
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Postman API Network](#postman-api-network)
-  - [RapidAPI](#rapidapi)
-  - [APIs.guru](#apisguru)
-  - [ProgrammableWeb](#programmableweb)
-- [Open-Source Software](#-open-source-software)
-  - [APIs.guru OpenAPI Directory](#apisguru-openapi-directory)
-  - [Public APIs (public-apis)](#public-apis-public-apis)
-  - [API Hub](#api-hub)
-  - [Apinf](#apinf)
-  - [Apivault](#apivault)
-  - [openapi-directory-mcp](#openapi-directory-mcp)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+  - [Commercial Directory Comparison Table](#commercial-directory-comparison-table)
+  - [Platform Deep Dives](#platform-deep-dives)
+- [🟩 Open-Source Software and Curated Directories](#-open-source-software-and-curated-directories)
+  - [Open-Source Solutions (Ranked by GitHub Stars)](#open-source-solutions-ranked-by-github-stars)
+- [📊 Feature Comparison Matrix](#-feature-comparison-matrix)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+## 📈 Sector Overview & Market Dynamics
 
-Commercial, cloud-hosted Public and Private API Directory platforms. These are not open-source but are included as reference points for feature comparison.
-
-### Postman API Network
-**Type:** API discovery and collaboration within Postman ecosystem
-Postman API Network is the public directory within the Postman platform, allowing developers to discover and explore APIs published by organizations. It integrates directly with Postman's API client, collections, and workspaces, making it the natural discovery layer for teams already using Postman for API development and testing.
-
-### RapidAPI
-**Type:** Commercial API marketplace and hub
-RapidAPI is one of the largest commercial API marketplaces, connecting developers with thousands of APIs across categories. It provides a unified billing layer, API key management, and usage analytics. It is the primary commercial reference for API monetization and discovery, though it is entirely proprietary.
-
-### APIs.guru
-**Type:** Community-driven machine-readable API directory
-APIs.guru provides a searchable directory of public API definitions in OpenAPI format, described as a "Wikipedia for Web APIs" [citation:9][citation:13]. It hosts **2,529 API descriptions** covering **108,837 endpoints**, with weekly updates and automatic conversion to OpenAPI 3.0 [citation:9]. All data is accessible via a REST API. While the directory itself is a hosted service, the underlying data is community-maintained and open [citation:4].
-
-### ProgrammableWeb
-**Type:** Legacy API directory and research resource
-ProgrammableWeb is a long-standing directory of APIs, mashups, and SDKs, widely used for API research and discovery. It is a reference resource rather than an interactive platform, with a catalog that has been maintained for over a decade.
+The global API management, directory, and marketplace sector was valued at approximately **$7.7 billion in 2024** and is projected to expand to **$21.4B–$47.0B by 2030** at a compound annual growth rate (CAGR) of roughly **16% to 25%**. The market exhibits moderate fragmentation overall, with high concentration in the enterprise API testing and workspace layer (dominated by Postman) alongside specialized commercial marketplaces like RapidAPI, while internal enterprise API cataloging and OpenAPI developer portals remain competitive and rapidly growing across cloud hyperscalers and open-source ecosystems.
 
 ---
 
-## 🟩 Open-Source Software
+## 🟦 SaaS / Hosted Commercial Platforms
 
-Self-hosted, community-driven Public and Private API Directory tools. The open-source ecosystem spans **machine-readable API definition directories**, **curated public API lists**, **self-hosted OpenAPI portals**, and **AI-agent-accessible catalogs**.
+Commercial, cloud-hosted public and private API directory platforms offering API hubs, developer marketplaces, internal cataloging, and collaboration workspaces.
 
-### APIs.guru OpenAPI Directory
-**Stack:** JavaScript / YAML / JSON | **License:** CC0-1.0 (data) [citation:3][citation:4]
-The **openapi-directory** repository is the open-source data layer behind APIs.guru, containing a comprehensive collection of REST API definitions in OpenAPI 2.0/3.x format [citation:4]. Key characteristics:
-- **4,533 GitHub stars** and **739 forks**, making it the most-starred open-source API directory [citation:3]
-- **Community-driven**: anyone can add or change an API, not just the owner [citation:4]
-- **Automated weekly updates** from original sources, with validation before commit [citation:4]
-- **Machine-readable**: all data accessible through a REST API, discouraging direct GitHub raw links [citation:4]
-- **Integrations**: used by HTTP Toolkit, Apideck, Microsoft Kiota, and others [citation:4]
+### Commercial Directory Comparison Table
 
-**Best for:** Developers needing a comprehensive, machine-readable collection of OpenAPI definitions for code generation, testing, and API discovery.
+Sorted descending by estimated company size (market valuation / enterprise parent / annual recurring revenue):
 
-### Public APIs (public-apis)
-**Stack:** Markdown / GitHub | **License:** Open Source (MIT) [citation:5]
-The **public-apis** repository is a collective list of free APIs, organized by category (Animals, Anime, Blockchain, Finance, Health, Music, News, Sports, Test Data, Text Analysis, and more) . It is one of the most popular open-source API directories, with a simple Markdown format that lists API name, description, authentication type (apiKey, OAuth, or none), HTTPS support, and CORS status . It is a **curated list** rather than a machine-readable directory or interactive portal.
-
-**Best for:** Developers wanting a curated, human-readable list of free APIs for side projects and prototyping, particularly for discovering APIs with no authentication requirements.
-
-### API Hub
-**Stack:** TypeScript / Next.js / Docker | **License:** MIT [citation:1]
-API Hub (dukex/api-hub) is a **simple OpenAPI discovery portal** for creating an elegant API portal from your OpenAPI specifications with minimal configuration [citation:1]. Key features:
-- **API discovery**: searchable and filterable list of APIs by name, team, and metadata
-- **Interactive documentation**: Swagger UI-powered API docs
-- **AI-powered summaries**: automatic API summaries using Google Gemini (requires `GEMINI_API_KEY`)
-- **Simple configuration**: just provide OpenAPI URLs and names in `specs/apis.json`
-
-Deploys via Docker with a single command [citation:1].
-**Best for:** Teams wanting a self-hosted, lightweight API portal for their internal or public OpenAPI specs, accepting a minimal configuration-driven approach.
-
-### Apinf
-**Stack:** JavaScript | **License:** Open Source [citation:8][citation:12]
-Apinf is an **open-source API management platform** with multi-proxy and protocol support [citation:8]. It provides API catalog functionality alongside management capabilities. **Important:** The project was last pushed almost 3 years ago (as of the ecosystem data), so maintenance status should be verified before adoption [citation:8].
-
-**Best for:** Teams exploring an older open-source API management platform with catalog features, accepting the maintenance risk.
-
-### Apivault
-**Stack:** (Check repository) | **License:** Open Source [citation:12]
-Apivault is an open-source **directory and gateway for discovering public APIs**, cataloging thousands of free and public APIs across **51 categories** including animals, anime, blockchain, cryptocurrency, finance, health, music, news, and weather [citation:12]. It is an independent third-party profile by API Evangelist. It is actively maintained (updated October 2026) [citation:12].
-
-**Best for:** Developers wanting a self-hosted or open directory with broad category coverage for public API discovery, accepting a younger project than APIs.guru.
-
-### openapi-directory-mcp
-**Stack:** TypeScript / MCP | **License:** Open Source 
-openapi-directory-mcp exposes the APIs.guru directory to AI agents (Claude Code, Windsurf) through **22 MCP tools and prompts**, including API discovery, integration guide generation, code generation, auth implementation, and test suite creation . It also supports **importing custom OpenAPI specifications** as first-class citizens alongside the public directory, with security scanning and hierarchical storage . This bridges the gap between API directories and AI-assisted development workflows.
-
-**Best for:** Developers using AI coding agents wanting direct access to the APIs.guru directory within their IDE or agent session, particularly for code generation and integration guidance.
+| Platform | Category / Primary Focus | Company Size (Valuation / Revenue) | Starting Pricing (Paid Tiers) | Free Tier Limit / Free Trial |
+|:---|:---|:---|:---|:---|
+| **[ProgrammableWeb (Salesforce / MuleSoft)](https://en.wikipedia.org/wiki/ProgrammableWeb)** | Legacy Public Web API Directory | **$290B+ Market Cap** (Salesforce parent; acquired via MuleSoft for $6.5B) | **Archived / Free archive access** ($0 legacy catalog; acquired/closed by MuleSoft) | **Free read-only access** to historical directory archives; active submissions retired |
+| **[Postman API Network](https://www.postman.com/explore)** | Public & Private API Discovery & Collaboration | **$5.6B Valuation** (Series D) / **~$313M ARR** | **$14/user/month** (Basic/Team tier billed annually, or $19/user/month monthly) | **Free forever plan**: strictly 1 user, 1,000 cloud monitoring requests/month, 50 AI credits/month, 5 integrations, unlimited local collection runs |
+| **[RapidAPI (Rapid API Hub)](https://rapidapi.com/hub)** | Public API Marketplace & Enterprise Hub | **$1.0B Valuation** (Unicorn / Series D) / **~$35M ARR** | **$10.00/month** (Basic Pro provider tier; 25% marketplace transaction fee on paid sales) | **Free forever plan**: Basic tier at $0/month with provider-specified quota (e.g., 100 to 1,000 free requests/month; up to 1,000 req/hr & 500k req/mo for free APIs) |
+| **[Stoplight (SmartBear)](https://stoplight.io/)** | API Design, Catalog & Documentation Portal | **~$100M+ Acquisition** (SmartBear subsidiary; ~$8M ARR) | **$39/user/month** (Pro plan billed annually, or $49/user/month monthly) | **14-day free trial** of Pro features (unlimited projects, style guides, mock servers), plus permanent free tier limited to 1 user and 1 project |
 
 ---
 
-## 📊 Comparison at a Glance
+### Platform Deep Dives
 
-| Software | License | Stack | Machine-Readable | Self-Hosted | AI/MCP | Best For |
-|----------|---------|-------|------------------|-------------|--------|----------|
-| **Postman API Network** | Proprietary | Cloud | (Postman format) | ❌ | ❌ | Postman ecosystem discovery |
-| **RapidAPI** | Proprietary | Cloud | (Proprietary) | ❌ | ❌ | Commercial API marketplace |
-| **APIs.guru (hosted)** | CC0 (data) | Cloud | ✅ OpenAPI | (Data) | ❌ | Machine-readable directory |
-| **APIs.guru OpenAPI Directory** | CC0-1.0 | YAML/JSON | ✅ OpenAPI | ✅ (Data) | ❌ | 4,533-star OSS directory |
-| **Public APIs** | MIT | Markdown | ❌ (Curated list) | ✅ | ❌ | Free API discovery |
-| **API Hub** | MIT | TypeScript/Docker | ✅ OpenAPI | ✅ | ✅ Gemini | Self-hosted OpenAPI portal |
-| **Apivault** | Open Source | (Check) | (Check) | ✅ | ❌ | 51-category public API directory |
-| **openapi-directory-mcp** | Open Source | TypeScript/MCP | ✅ OpenAPI | ✅ (MCP) | ✅ MCP | AI-agent API discovery |
+#### Postman API Network
+- **Website:** [postman.com/explore](https://www.postman.com/explore)
+- **Primary Type:** Public & Enterprise Private API Directory
+- **Overview:** Postman API Network is the primary discovery directory within the Postman ecosystem, connecting over 30 million developers to public APIs, collections, and workspaces published by thousands of organizations worldwide.
+- **Enterprise Features:** Private API Network for enterprise internal cataloging, schema validation, mock servers, and automated governance workflows.
+- **Pricing:** Free forever for individual developers (1 user, 1,000 cloud monitor calls/mo). Team tier starts at $14/user/month (billed annually); Enterprise starts at $49/user/month.
+
+#### RapidAPI
+- **Website:** [rapidapi.com](https://rapidapi.com)
+- **Primary Type:** Commercial API Marketplace and Private Enterprise Hub
+- **Overview:** RapidAPI operates one of the world's largest commercial API hubs, enabling developers to search, test, and subscribe to thousands of public microservices through a unified API key, centralized billing, and analytics dashboard.
+- **Enterprise Features:** RapidAPI Enterprise Hub provides internal developers with private discovery portals, automated security policy enforcement, and gateway adapters.
+- **Pricing:** Public directory consumption includes developer Free/Basic tiers (e.g., 100 to 1,000 calls/month per API). Paid developer plans start at $10.00/month. RapidAPI retains a 25% transaction fee on marketplace sales.
+
+#### Stoplight
+- **Website:** [stoplight.io](https://stoplight.io)
+- **Primary Type:** API Design, Governance, and Documentation Catalog
+- **Overview:** Part of SmartBear, Stoplight provides a design-first API platform featuring interactive documentation, OpenAPI spec management, linting/governance (Spectral), and internal catalog portals.
+- **Pricing:** 14-day full-featured free trial; Free forever tier capped at 1 user and 1 project. Paid Pro plan starts at $39/user/month (billed annually).
+
+#### ProgrammableWeb
+- **Website:** [en.wikipedia.org/wiki/ProgrammableWeb](https://en.wikipedia.org/wiki/ProgrammableWeb)
+- **Primary Type:** Historical API Directory & Web Economy Journal
+- **Overview:** Founded in 2005 and later acquired by MuleSoft/Salesforce, ProgrammableWeb served as the foundational public registry and news publication for the API economy for over 17 years before its catalog was archived.
+
+---
+
+## 🟩 Open-Source Software and Curated Directories
+
+Self-hosted OpenAPI portals, community-driven public API registries, and developer catalogs. 
+
+### Open-Source Solutions (Ranked by GitHub Stars)
+
+The table below is sorted descending by GitHub star counts:
+
+| Repository / Project | License | Tech Stack | Stars Badge | Description |
+|:---|:---|:---|:---|:---|
+| **[public-apis/public-apis](https://github.com/public-apis/public-apis)** | MIT | Markdown / Python | [![Stars](https://img.shields.io/github/stars/public-apis/public-apis?style=social&color=white)](https://github.com/public-apis/public-apis/stargazers) | The largest collective list of free public APIs for developers, categorized across 50+ topics with auth and CORS status indicators. |
+| **[backstage/backstage](https://github.com/backstage/backstage)** | Apache-2.0 | TypeScript / React / Node.js | [![Stars](https://img.shields.io/github/stars/backstage/backstage?style=social&color=white)](https://github.com/backstage/backstage/stargazers) | Spotify's open-source developer portal platform featuring a comprehensive internal software and API catalog with plugin ecosystem. |
+| **[public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists)** | MIT | Python / Markdown / JSON | [![Stars](https://img.shields.io/github/stars/public-api-lists/public-api-lists?style=social&color=white)](https://github.com/public-api-lists/public-api-lists/stargazers) | Curated, actively maintained list of free public APIs with an accompanying free JSON API and automated health checks. |
+| **[marcelscruz/public-apis](https://github.com/marcelscruz/public-apis)** | MIT | JavaScript / React | [![Stars](https://img.shields.io/github/stars/marcelscruz/public-apis?style=social&color=white)](https://github.com/marcelscruz/public-apis/stargazers) | Collaborative web platform and directory UI for exploring public REST APIs with filtering, search, and category exploration. |
+| **[APIs-guru/graphql-apis](https://github.com/APIs-guru/graphql-apis)** | CC0-1.0 | JSON / Markdown | [![Stars](https://img.shields.io/github/stars/APIs-guru/graphql-apis?style=social&color=white)](https://github.com/APIs-guru/graphql-apis/stargazers) | A collective public directory of GraphQL APIs and endpoints with schema links, authentication requirements, and descriptions. |
+| **[APIs-guru/openapi-directory](https://github.com/APIs-guru/openapi-directory)** | CC0-1.0 | JavaScript / YAML / JSON | [![Stars](https://img.shields.io/github/stars/APIs-guru/openapi-directory?style=social&color=white)](https://github.com/APIs-guru/openapi-directory/stargazers) | "Wikipedia for Web APIs" containing over 2,500 machine-readable OpenAPI 2.0/3.x definitions covering 108,000+ endpoints. |
+| **[stoplightio/elements](https://github.com/stoplightio/elements)** | Apache-2.0 | TypeScript / Web Components | [![Stars](https://img.shields.io/github/stars/stoplightio/elements?style=social&color=white)](https://github.com/stoplightio/elements/stargazers) | Open-source, embeddable API documentation and catalog component powered by OpenAPI and Markdown for building custom internal portals. |
+| **[awslabs/aws-api-gateway-developer-portal](https://github.com/awslabs/aws-api-gateway-developer-portal)** | Apache-2.0 | TypeScript / Serverless | [![Stars](https://img.shields.io/github/stars/awslabs/aws-api-gateway-developer-portal?style=social&color=white)](https://github.com/awslabs/aws-api-gateway-developer-portal/stargazers) | AWS serverless application for publishing, cataloging, discovering, and testing APIs deployed on Amazon API Gateway. |
+| **[exa-studio/ApiVault](https://github.com/exa-studio/ApiVault)** | MIT | Go / TypeScript / Next.js | [![Stars](https://img.shields.io/github/stars/exa-studio/ApiVault?style=social&color=white)](https://github.com/exa-studio/ApiVault/stargazers) | Modern open-source API directory and gateway application indexing public web APIs across 51 categories with search and testing tools. |
+| **[apinf/platform](https://github.com/apinf/platform)** | EUPL-1.2 | JavaScript / Meteor | [![Stars](https://img.shields.io/github/stars/apinf/platform?style=social&color=white)](https://github.com/apinf/platform/stargazers) | Open-source API management and discovery platform supporting API catalogs, access control, and usage analytics. |
+| **[dukex/api-hub](https://github.com/dukex/api-hub)** | MIT | TypeScript / Next.js / Docker | [![Stars](https://img.shields.io/github/stars/dukex/api-hub?style=social&color=white)](https://github.com/dukex/api-hub/stargazers) | Lightweight OpenAPI discovery portal with Gemini AI summaries, Swagger UI docs, and single-container Docker deployment. |
+| **[rawveg/openapi-directory-mcp](https://github.com/rawveg/openapi-directory-mcp)** | MIT | TypeScript / MCP | [![Stars](https://img.shields.io/github/stars/rawveg/openapi-directory-mcp?style=social&color=white)](https://github.com/rawveg/openapi-directory-mcp/stargazers) | Model Context Protocol (MCP) server providing LLM and AI coding agents with direct discovery, code-gen, and inspection tools for public APIs. |
+
+---
+
+## 📊 Feature Comparison Matrix
+
+| Project / Platform | Type | License | Self-Hostable | Machine-Readable Specs | Interactive Testing | AI / MCP Ready | Primary Use Case |
+|:---|:---|:---|:---:|:---:|:---:|:---:|:---|
+| **Postman API Network** | Hosted SaaS | Proprietary | ❌ | ✅ OpenAPI / Collection | ✅ Built-in Client | ✅ Postman Postbot | Public API discovery & team collaboration |
+| **RapidAPI Hub** | Hosted SaaS | Proprietary | ❌ | ✅ OpenAPI | ✅ In-browser Console | ❌ | Commercial API marketplace & billing |
+| **Stoplight** | Hosted SaaS / Hybrid | Commercial | ❌ | ✅ OpenAPI / Spectral | ✅ Mock & Docs | ❌ | API design governance & internal catalogs |
+| **public-apis** | Open Source | MIT | ✅ | ❌ Markdown Index | ❌ | ❌ | Quick lookup of free developer APIs |
+| **Backstage** | Open Source | Apache-2.0 | ✅ | ✅ OpenAPI / GraphQL | ✅ via Plugins | ✅ Plugins | Enterprise internal developer portal & catalog |
+| **APIs.guru Directory** | Open Source | CC0-1.0 | ✅ | ✅ OpenAPI 2.0 / 3.0 | ❌ Spec Only | ✅ Agent-ready | Comprehensive OpenAPI specs for tooling |
+| **Elements** | Open Source | Apache-2.0 | ✅ | ✅ OpenAPI | ✅ Try-it-out Console | ❌ | Embedding API documentation into existing sites |
+| **AWS Developer Portal** | Open Source | Apache-2.0 | ✅ | ✅ OpenAPI / AWS Gateway | ✅ API Gateway SDK | ❌ | Serverless developer portal for AWS APIs |
+| **ApiVault** | Open Source | MIT | ✅ | ✅ REST Catalog | ✅ Test console | ❌ | Modern self-hosted public API directory |
+| **API Hub** | Open Source | MIT | ✅ | ✅ OpenAPI Specs | ✅ Swagger UI | ✅ Gemini AI | Minimal single-container OpenAPI portal |
+| **openapi-directory-mcp** | Open Source | MIT | ✅ | ✅ OpenAPI | ✅ Agent Tooling | ✅ MCP Native | AI coding agent discovery & integration |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Public or Private API Directory tool that should be listed here, please open a pull request with:
+Contributions to this directory are always welcome! To add a new public or private API directory, marketplace, or catalog platform:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem for **API directories** is **strongest for machine-readable OpenAPI collections**. **APIs.guru OpenAPI Directory** is the most established open-source directory with 4,533 stars and CC0 licensing, providing 2,529 API descriptions updated weekly [citation:3][citation:4]. **Public APIs** is the most accessible curated list for discovering free APIs . For self-hosted portals, **API Hub** offers a minimal MIT-licensed Docker deployment [citation:1], while **openapi-directory-mcp** uniquely bridges API discovery to AI coding agents via MCP .
+1. Fork this repository.
+2. Create a new branch (`git checkout -b feature/add-new-api-directory`).
+3. Add the project to the relevant table with verified specifications, licensing, pricing, and GitHub star badge.
+4. Ensure entries are sorted according to the established order (company size for SaaS, star counts for open source).
+5. Open a Pull Request with a clear summary of the additions.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This compilation is licensed under the [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0) Public Domain Dedication. Listed third-party platforms and repositories retain their respective trademarks, copyrights, and software licenses.
 
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+<div align="center">
+  <sub>Maintained with ❤️ for the global developer, API architect, and open-source community.</sub>
+</div>
