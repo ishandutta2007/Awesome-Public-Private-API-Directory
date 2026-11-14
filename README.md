@@ -41,7 +41,7 @@
   - [📊 Commercial Directory Comparison Table](#-commercial-directory-comparison-table)
   - [🔍 Platform Deep Dives](#-platform-deep-dives)
 - [💻 Open-Source Software and Curated Directories 🐧](#-open-source-software-and-curated-directories-)
-  - [⭐ Open-Source Solutions (Ranked by GitHub Stars)](#-open-source-solutions-ranked-by-github-stars)
+  - [⭐ Open-Source Solutions (Ranked by GitHub_Stars)](#-open-source-solutions-ranked-by-github-stars)
 - [📊 Feature Comparison Matrix 🧩](#-feature-comparison-matrix-)
 - [💖 Support & Sponsor ☕](#-support--sponsor-)
 - [⭐ Star History 📈](#-star-history-)
@@ -106,11 +106,11 @@ Sorted descending by estimated company size (market valuation / enterprise paren
 
 Self-hosted OpenAPI portals, community-driven public API registries, and developer catalogs 🛠️. 
 
-### ⭐ Open-Source Solutions (Ranked by GitHub Stars)
+### ⭐ Open-Source Solutions (Ranked by GitHub_Stars)
 
-The table below is sorted descending by GitHub star counts 🌟:
+The table below is sorted descending by GitHub Stars_Counts 🌟:
 
-| Repository / Project | License | Tech Stack | Stars Badge | Description |
+| Repository / Project | License | Tech Stack | Stars_Badge | Description |
 |:---|:---|:---|:---|:---|
 | **[public-apis/public-apis](https://github.com/public-apis/public-apis)** 🌍 | MIT | Markdown / Python 🐍 | [![Stars](https://img.shields.io/github/stars/public-apis/public-apis?style=social&color=white)](https://github.com/public-apis/public-apis/stargazers) | The largest collective list of free public APIs for developers, categorized across 50+ topics with auth and CORS status indicators. |
 | **[backstage/backstage](https://github.com/backstage/backstage)** 🎭 | Apache-2.0 | TypeScript / React / Node.js ⚛️ | [![Stars](https://img.shields.io/github/stars/backstage/backstage?style=social&color=white)](https://github.com/backstage/backstage/stargazers) | Spotify's open-source developer portal platform featuring a comprehensive internal software and API catalog with plugin ecosystem. |
@@ -172,8 +172,8 @@ Contributions to this directory are always welcome! 🚀 To add a new public or 
 
 1. Fork this repository 🍴.
 2. Create a new branch (`git checkout -b feature/add-new-api-directory`) 🌿.
-3. Add the project to the relevant table with verified specifications, licensing, pricing, and GitHub star badge 📝.
-4. Ensure entries are sorted according to the established order (company size for SaaS, star counts for open source) 🔢.
+3. Add the project to the relevant table with verified specifications, licensing, pricing, and GitHub Stars_Badge 📝.
+4. Ensure entries are sorted according to the established order (company size for SaaS, Stars_Counts for open source) 🔢.
 5. Open a Pull Request with a clear summary of the additions 📬.
 
 ---
